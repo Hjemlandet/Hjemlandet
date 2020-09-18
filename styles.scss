@@ -1,0 +1,103 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+#home {
+  display: block;
+  min-width: 100%;
+  min-height: 1000px;
+  margin: 0 auto;
+  border: solid 1px #000; 
+  background-attachment: fixed;
+  background-position: initial;
+  background-size: cover;
+  background-image: -webkit-radial-gradient( 1200px 700px, #757575, #36332b, #312b23, #000000 70%);
+  font-family: 'Times New Roman', Times, serif;
+  .top {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    #empty {
+      width: 50px;
+      height: 50px;
+      margin: 0px;
+      margin-right: auto;
+      
+    }
+
+    h1 {
+      width: 500px;
+      color: #dc143c;
+      text-align: center;
+      margin: 10px auto;
+      font-size: 55px;
+      letter-spacing: 30px;
+  
+    }
+    #backSound {
+      
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border: solid 5px rgb(245, 222, 179);
+      border-radius: 25px;
+      width: 50px;
+      height: 50px;
+      margin: 0;
+      margin-left: auto;
+      cursor: pointer;
+      &.On {
+        
+        border-color: #dc143c;
+      }
+      
+  
+    }
+  }
+  .mainNav {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 70px auto 20px auto;
+    width: 380px;
+    #con {
+      color: rgb(128, 128, 128);
+      &:hover {
+        color:rgb(128, 128, 128);
+      }
+    }
+    span {
+      cursor: pointer;
+      flex: 1 50px;
+      margin: 15px auto;
+      border: none;
+      border-bottom: solid 3px #693300;
+      border-radius: none;
+      background: none;
+      color: #fff;
+      font-size: 30px;
+      font-family: "Josefin Sans";
+      a:hover {
+        color: #dc143c;
+      }
+    }
+  
+  }
+  .bottom {
+    display: flex;
+    flex-flow: column wrap;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto;
+    margin-top: 400px;
+  }
+}
+
+
